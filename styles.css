@@ -1,0 +1,53 @@
+.navigation {
+  background-color: #0F5EB7;
+  position: fixed;
+  text-align: center;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.navigation ul li {
+  float: left;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  color: #CC0000;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Agency FB", serif;
+}
+
+.navigation ul li a:hover {
+  background-color: #FFFF99;
+  color: #CC6600;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: light blue;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Bernard MT", serif;
+} 

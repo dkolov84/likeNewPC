@@ -45,9 +45,9 @@ body {
 }
 
 h1 {
-    position: relative;
+    position: fixed;
     color: red;
-    text-align: center;
+    margin-left: 200px;
     margin-top: 80px;
     font-size: 40px;
     font-weight: bold;

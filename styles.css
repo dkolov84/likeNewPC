@@ -47,9 +47,9 @@ body {
 h1 {
     position: fixed;
     color: red;
-    margin-left: 230px;
+    margin-left: 210px;
     margin-top: 80px;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     font-family: "Bernard MT", serif;
 } 

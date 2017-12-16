@@ -9,15 +9,21 @@
  </head>
 
 <body>
-  <nav class="navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="hrepairs">Hardware Repairs</a></li>
-      <li><a href="srepairs">Software Repairs</a></li>
-      <li><a href="pcbuilds">PC Builds</a></li>
-      <li><a href="contact">Contact Me</a></li>
-    </ul>
-</nav>
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="hrepairs.html">Hardware Repairs</a>
+  <a href="srepairs.html">Software Repairs</a>
+  <a href="pcbuilds.html">PC Builds</a>
+  <a href="contactme.html">Contact Me</a></li>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  
 <h1> Anything PC: Repairs, Builds, Troubleshot, Virus Removal, Reinstall, Fix OS starting issues and much more </h1>
 </body>
 </html>

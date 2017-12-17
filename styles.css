@@ -89,6 +89,7 @@
     .sidenav a {font-size: 18px;}
 } 
 body {
+    background-image: url("pictures/background.jpg");
     background-color: gray;
 }
 

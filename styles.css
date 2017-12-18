@@ -1,44 +1,4 @@
-.navigation {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
 
-.navigation ul {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; 
-}
-
-.navigation ul li {
-  float: left;
-}
-
-.navigation ul li a {
-  display: block;
-  padding: 20px;
-  font-size: 20px;
-  color: #CC0000;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Agency FB", serif;
-}
-
-.navigation ul li a:hover {
-  background-color: #FFFF99;
-  color: #CC6600;
-}
  /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -98,10 +58,24 @@ h1 {
     color: #33FFBD;
     margin-left: 210px;
     margin-top: 80px;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     font-family: "Bernard MT", serif;
 } 
+h2 {
+    position: relative;
+    color: #33FFBD;
+    margin-left: 220px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+p {
+    position: fixed;
+    color: white;
+    margin-left: 230px;
+    margin-top: 23px;
+    font-size 23px;
+}
 .button {
     background-color: #008CBA;
     color: white;
